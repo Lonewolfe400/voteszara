@@ -1,0 +1,114 @@
+HEAD {
+   
+}
+
+BODY{ 
+    background-size: contain;
+    background-size:cover;
+    margin: 0;
+    text-align: center;
+     background: LINEAR-GRADIENT(PINK, YELLOW, PINK)
+}
+IMG{ width:
+    
+      
+}
+H1{ color: whitesmoke;
+    text-shadow: 2PX 2PX 26PX YELLOW;
+    background-color: plum
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.column{
+   
+    padding: 3px
+}
+.row: :after {
+    content:attr();
+    display: table;
+    clear: both;
+}
+.wrapper{
+   background-blend-mode: color
+}
+
+H3{
+     margin: 0;
+}
+H2{ 
+    color: azure;
+    background-color: mediumpurple;
+    height: 30PX;}
+.cold{
+    color: darkred
+}
+.center{
+   background-color: palevioletred
+}
+P{
+    color: blue;
+}
+.imgg{
+    width: 150px
+}
+
+.down {
+     margin: 0;
+
+    text-align: center;
+
+}
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right {
+    float: right;
+}
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #fff;  
+    
+}
+ul.topnav li.dropdownicon {
+    display: none;
+}
+
+/*############## mobile ##############*/
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display:none;
+    }
+}
+ul.topnav li.dropdownicon {
+    display: block;
+    float: right;
+}

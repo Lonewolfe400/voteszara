@@ -1,0 +1,10 @@
+.img{
+   height: 58px;
+    box-shadow: 6px 6px 3px aliceblue
+}
+body{
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(aliceblue,white,aliceblue );
+   
+}
